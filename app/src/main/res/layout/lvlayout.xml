@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="8dp" >
+
+	<TextView
+		android:id="@+id/LIST_where"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Starbucks"
+		android:textColor="@color/black"
+		android:textSize="16sp" />
+
+	<TextView
+		android:id="@+id/LIST_name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/LIST_where"
+		android:ellipsize="marquee"
+		android:singleLine="true"
+		android:text="Eugene Park"
+		android:textColor="@color/black"
+		android:textSize="12sp" />
+
+	<TextView
+		android:id="@+id/LIST_price"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/LIST_name"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@id/LIST_where"
+		android:gravity="right"
+		android:text="$1.50"
+		android:textSize="16sp" />
+
+</RelativeLayout>

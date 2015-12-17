@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop = "16dp"
+    android:paddingBottom = "16dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@color/backgroundColor">
+
+    <EditText
+        android:id="@+id/LOGIN_EDITTEXT_USERNAME"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/LightGrey"
+        android:background="@drawable/edittext"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/LOGIN_EDITTEXT_PASSWORD"
+        android:layout_below="@id/LOGIN_EDITTEXT_USERNAME"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/LightGrey"
+        android:background="@drawable/edittext"
+        android:hint="Password" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LOGIN_EDITTEXT_PASSWORD"
+        android:layout_marginTop="18dp"
+        android:layout_alignLeft="@id/LOGIN_EDITTEXT_PASSWORD"
+        android:layout_alignRight="@id/LOGIN_EDITTEXT_PASSWORD"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/LOGIN_BUTTON_LOGIN"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/login_password"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blue_btn"
+            android:layout_weight="1"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:shadowRadius="2"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/LOGIN_BUTTON_REGISTER"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/login_password"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="Register"
+            android:background="@drawable/blue_btn"
+            android:textColor="@color/white"
+            android:shadowRadius="2"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/LOGIN_TEXTVIEW_INVALIDLOGIN"
+        android:layout_below="@id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:text="Invalid login credentials!"
+        android:padding="10dp"
+        android:visibility="invisible" />
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sign_in_button"
+        android:layout_alignEnd="@+id/sign_in_button"
+        android:layout_above="@+id/sign_in_button"/>
+
+
+</RelativeLayout>

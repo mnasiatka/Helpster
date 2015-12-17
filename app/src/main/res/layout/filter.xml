@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<ExpandableListView
+		android:id="@+id/FILTER_EXPANDABLELISTVIEW_ELV"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<EditText
+		android:id="@+id/FILTER_EDITTEXT_ADDITEM"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+
+	<Button
+		android:id="@+id/FILTER_BUTTON_ONLONGCLICK"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Click me!" />
+
+	<Button
+		android:id="@+id/FILTER_BUTTON_SUBMIT"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Continue" />
+
+</LinearLayout>

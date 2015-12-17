@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.helpster.MapActivity" >
+
+    <item
+        android:id="@+id/action_map_list"
+        android:orderInCategory="100"
+        android:title="List"
+        android:icon="@drawable/ic_action_view_as_list"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_map_all"
+        android:orderInCategory="100"
+        android:title="All"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_map_delivery"
+        android:orderInCategory="100"
+        android:title="Delivery"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_map_services"
+        android:orderInCategory="100"
+        android:title="Services"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_map_carpool"
+        android:orderInCategory="100"
+        android:title="Carpool"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/EDITUSER_IMAGEVIEW_PROFILEPICTURE"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="The user picture"
+        android:scaleType="centerInside"
+        android:src="@drawable/profile_picture" />
+
+    <TextView
+        android:id="@+id/EDITUSER_TEXTVIEW_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/EDITUSER_IMAGEVIEW_PROFILEPICTURE"
+        android:text=""
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/EDITUSER_TEXTVIEW_USERNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/EDITUSER_TEXTVIEW_NAME"
+        android:layout_below="@id/EDITUSER_TEXTVIEW_NAME"
+        android:text=""
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/EDITUSER_TEXTVIEW_EMAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/EDITUSER_TEXTVIEW_USERNAME"
+        android:layout_below="@id/EDITUSER_TEXTVIEW_USERNAME"
+        android:text=""
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/EDITUSER_BUTTON_SAVE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Save!" />
+
+    <Button
+        android:id="@+id/EDITUSER_BUTTON_CANCEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/EDITUSER_BUTTON_SAVE"
+        android:layout_alignTop="@id/EDITUSER_BUTTON_SAVE"
+        android:text="Cancel" />
+
+</RelativeLayout>

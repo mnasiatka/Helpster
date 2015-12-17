@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<group android:checkableBehavior="all" >
+		<item
+			android:id="@+id/gt"
+			android:title="Georgia Tech"/>
+		<item
+			android:id="@+id/work"
+			android:title="Work (Tin Drum)"/>
+		<item
+			android:id="@+id/rugby"
+			android:title="GT Rugby"/>
+		<item
+			android:id="@+id/hobby"
+			android:title="Fishing buddies"/>
+	</group>
+
+</menu>

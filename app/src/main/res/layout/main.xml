@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              tools:context=".MainActivity">
+
+   <!-- <include layout="@layout/toolbar" /> -->
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ExpandableListView
+            android:id="@+id/elv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/MAIN_VIEW_HORIZONTALDIVIDER2" />
+
+        <ListView
+            android:id="@+id/MAIN_LISTVIEW_DASHBOARD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_below="@id/MAIN_VIEW_HORIZONTALDIVIDER2" />
+
+        <ListView
+            android:id="@+id/drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#FFF"
+            android:choiceMode="singleChoice" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

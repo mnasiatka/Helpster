@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/DRAWERLIST_EDITTEXT_SEARCH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search.."
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/DRAWERLIST_TEXTVIEW_SEARCHRESULTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DRAWERLIST_EDITTEXT_SEARCH"
+        android:padding="5dp"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/MAIN_VIEW_HORIZONTALDIVIDER"
+        style="@style/hdivider"
+        android:layout_height="2dp"
+        android:layout_below="@id/DRAWERLIST_TEXTVIEW_SEARCHRESULTS" />
+
+    <TextView
+        android:id="@+id/DRAWERLIST_TEXTVIEW_OPTION1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MAIN_VIEW_HORIZONTALDIVIDER"
+        android:padding="10dp"
+        android:text="View users"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/MAIN_VIEW_HORIZONTALDIVIDER2"
+        style="@style/hdivider"
+        android:layout_below="@id/DRAWERLIST_TEXTVIEW_OPTION1" />
+
+    <TextView
+        android:id="@+id/DRAWERLIST_TEXTVIEW_OPTION2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MAIN_VIEW_HORIZONTALDIVIDER2"
+        android:padding="10dp"
+        android:text="Edit profile"
+        android:textSize="18dp" />
+     <View
+        android:id="@+id/MAIN_VIEW_HORIZONTALDIVIDER3"
+        style="@style/hdivider"
+        android:layout_below="@id/DRAWERLIST_TEXTVIEW_OPTION2" />
+
+    <TextView
+        android:id="@+id/DRAWERLIST_TEXTVIEW_OPTION3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MAIN_VIEW_HORIZONTALDIVIDER3"
+        android:padding="10dp"
+        android:text="Preferences"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/MAIN_VIEW_HORIZONTALDIVIDER4"
+        style="@style/hdivider"
+        android:layout_below="@id/DRAWERLIST_TEXTVIEW_SEARCHRESULTS" />
+
+</RelativeLayout>

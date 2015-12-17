@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helpster"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/support_icon"
+        android:logo="@drawable/ic_drawer"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+
+        <uses-library android:name="com.google.android.maps" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <activity
+            android:name=".Login"
+            android:label="Helpster"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main"
+            android:configChanges="orientation"
+            android:label="Dashboard" >
+            <intent-filter>
+                <action android:name="com.example.helpster.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewRequest"
+            android:label="View Request" >
+            <intent-filter>
+                <action android:name="com.example.helpster.VIEWREQUEST" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddRequest"
+            android:label="Add Request" >
+            <intent-filter>
+                <action android:name="com.example.helpster.ADDREQUEST" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="Register" >
+            <intent-filter>
+                <action android:name="com.example.helpster.REGISTER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Chat"
+            android:label="Chat" >
+            <intent-filter>
+                <action android:name="com.example.helpster.CHAT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ELV"
+            android:label="ELV" >
+            <intent-filter>
+                <action android:name="com.example.helpster.ELV" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Rate"
+            android:label="Rate" >
+            <intent-filter>
+                <action android:name="com.example.helpster.RATE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MapActivity"
+            android:label="Map" >
+            <intent-filter>
+                <action android:name="com.example.helpster.MAPACTIVITY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditUser"
+            android:label="Edit User" >
+            <intent-filter>
+                <action android:name="com.example.helpster.EDITUSER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewUsersList"
+            android:label="@string/title_activity_view_users" >
+            <intent-filter>
+                <action android:name="com.example.helpster.VIEWUSERS" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ViewUser"
+            android:label="@string/title_activity_view_user" >
+        </activity>
+
+
+        <activity android:name="com.facebook.FacebookActivity"
+                  android:configChanges=
+                      "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:label="@string/app_name" />
+    </application>
+
+</manifest>

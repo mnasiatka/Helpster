@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  xmlns:app="http://schemas.android.com/apk/res-auto"
+	  tools:context="com.example.helpster.Login">
+
+	<item
+		android:id="@+id/main_action_add"
+		android:icon="@drawable/ic_action_add"
+		android:title="Add Request"
+		app:showAsAction="always"
+		android:orderInCategory="200" />
+</menu>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginLeft="15dp"
+	android:orientation="vertical" >
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Name: "
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/viewRequestName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="Request Name" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Request Location: "
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/viewRequestWhere"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="Starbucks" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Delivery Location: "
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/viewRequestDelivery"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="Clough" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Completion Time: "
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/viewRequestDuration"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="1h 30m" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Contact: "
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/viewRequestContact"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="404-867-5309" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Tip: "
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/viewRequestPrice"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="$1.50" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Details:"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/viewRequestRequest"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="Tall vanilla macchiato, one splenda" />
+	</LinearLayout>
+
+</LinearLayout>

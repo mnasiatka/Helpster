@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="15dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/REQUEST_EDITTEXT_PLACE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="5dp"
+        android:hint="Request Location"
+        android:inputType="text|textCapSentences" />
+
+    <EditText
+        android:id="@+id/REQUEST_EDITTEXT_DELIVERY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/REQUEST_EDITTEXT_PLACE"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:hint="Delivery Location (if applicable)"
+        android:inputType="text|textCapSentences" />
+
+    <EditText
+        android:id="@+id/REQUEST_EDITTEXT_REQUEST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/REQUEST_EDITTEXT_DELIVERY"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:hint="Request Details"
+        android:inputType="textMultiLine|textCapSentences" />
+
+    <Spinner
+        android:id="@+id/REQUEST_SPINNER_COMPENSATION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/REQUEST_EDITTEXT_REQUEST"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/REQUEST_EDITTEXT_AMOUNT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/REQUEST_SPINNER_COMPENSATION"
+        android:layout_alignTop="@id/REQUEST_SPINNER_COMPENSATION"
+        android:padding="15dp"
+        android:inputType="numberDecimal"
+        android:hint="Tip amount" />
+
+    <TextView
+        android:id="@+id/REQUEST_TEXTVIEW_TIMEHINT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/REQUEST_EDITTEXT_AMOUNT"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        android:text="When do you need this done by?" />
+
+    <TimePicker
+        android:id="@+id/REQUESTONE_TIMEPICKER_ENDTIME"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/REQUEST_TEXTVIEW_TIMEHINT"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/REQUEST_BUTTON_CONTINUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text="Continue"
+        android:background="@drawable/blue_btn"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:shadowRadius="2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-0f9f420786b76ca2309b011734581b6817192b67.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-7a4f4324b1c5cabdb3b060b4450d81d6441467c0.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-c1bff6d547dbe5451eb7adf6937460272e2ec164.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-b1e3a211c714b9d3d83c5267ed4ed07b011e3d7c.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-e74afcbd7f873b6a30820b548831c4d4e95dd7a3.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-9267e3b3b4cd3507c1b342ecdd0607ef5475c38f.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-10d2874b05d6a64b051a09b4bff948d6736f1a81.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-5683b814a061b987c316501bb49014d2c6bbf1c0.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-5fa9958f002176222bf5c0c079958bf39dd10d54.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-74f36f0b7037bb8714f14ba732451796c45948c2.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-e8d32313030e1e969bfed2be15a9692fe1fe9d39.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-23f9761d13df9846b9b4bd1b9ed54bf68ef1369a.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-e888445cc19b2d1e918728705031d92166301da2.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\android-support-v4-bfcd21b1fff86d181340fe88911826bba713c9c3.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-359cd8787cb26c2cecd2ef15b8b52b12919d9c86.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-476648531d425c5e9b7060e922f0b962845e86e5.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-1e220b07728ab97a27a0488fcd1cec04f56defc3.jar" />
+    </item>
+    <item
+        jar="C:\Users\ythogh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-146ef4587cd9582ba5e2ca6755243c579b8340f2.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-c53a48f85ab42fe03fa5e4b5c2940af8ecd0c7d2.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-bf9104caa8523cfecc69dcdbb7937773a21a8794.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-a4efd401b68b5e9de1399ee9dbbb6c54c75680a8.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-e12fa2d03b447c94bd347c95d1609306714c5919.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-c74d1281d4f9b2b625164d988e39cfc12d398d49.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-ebd78a9771a69cf4721161d892fe8f1180749924.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-24f9ad0e642af6ec0e2d43958084a931352bd18b.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-cc51760a6903d13a5682d697a8e9532aaf1b6332.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\classes-1c1eddfedb36140fed1e468daff3b890a0ed757c.jar" />
+    </item>
+    <item
+        jar="D:\workspace\Helpster\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\workspace\Helpster\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-f95cd564cb8985fef56e0a8dac4e272c3113604f.jar" />
+    </item>
+
+</items>
